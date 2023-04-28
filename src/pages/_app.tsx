@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import type { AppProps } from "next/app";
 import { Roboto_Serif } from "next/font/google";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -14,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={roboto_serif.className}>
       <Component {...pageProps} />
+      <Analytics />
     </main>
   );
 }
