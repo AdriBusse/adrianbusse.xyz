@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profile from "../assets/images/profile_picture.jpeg";
+import sophie from "../assets/images/sophie.jpg";
 import IconLink from "@/components/molecules/IconLink";
 import { contactData } from "@/assets/data/contactData";
 import SEO from "@/components/molecules/SEO";
@@ -16,15 +16,15 @@ export default function Home() {
       >
         <div className="mx-auto">
           <Image
-            src={profile}
+            src={sophie}
             height={150}
             width={150}
             alt="profilepicture"
-            className="rounded-full overflow-hidden border border-black mb-10 "
+            className="mb-10 overflow-hidden border border-black rounded-full "
           />
 
-          <h1 className="">Adrian Busse</h1>
-          <p className="font-bold text-lg">Freelance Web Developer</p>
+          <h1 className="">Sophie Nguyen</h1>
+          <p className="text-lg font-bold">Marketing Specialist</p>
           <ul className="mb-16">
             <li>ReactJS</li>
             <li>Web-Apps</li>
