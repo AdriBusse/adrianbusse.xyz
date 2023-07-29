@@ -7,6 +7,11 @@ export default function Document() {
         <script defer src="/fontawesome/js/brands.js"></script>
         <script defer src="/fontawesome/js/solid.js"></script>
         <script defer src="/fontawesome/js/fontawesome.js"></script>
+        <script
+          defer
+          data-domain="adrianbusse.xyz"
+          src="http://web.ghettohippy.de/js/script.js"
+        ></script>
       </Head>
       <body>
         <Main />
