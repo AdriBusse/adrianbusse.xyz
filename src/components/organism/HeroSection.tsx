@@ -13,7 +13,7 @@ export default function HeroSection() {
 
     });
 
-    const colors = ['#d4cd8d', '#bc11d6', '#dedede'];
+    const colors = ['#d4cd8d', '#4e1457', '#dedede'];
 
     function tween(node: any) {
         let path = node;
