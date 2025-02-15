@@ -1,13 +1,12 @@
-
 import HeroSection from "@/components/organism/HeroSection";
 import {InformationSection} from "@/components/organism/InformationSection";
 
 export default function Home() {
     return (
-        <>
+        <div className={"overflow-hidden"}>
             <HeroSection/>
             <InformationSection />
-        </>
+        </div>
     );
 }
 

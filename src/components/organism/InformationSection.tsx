@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profile from "@/assets/images/profile_picture.jpeg";
+import profile from "@/assets/images/Adrian_Busse.webp";
 import {contactData} from "@/assets/data/contactData";
 import IconLink from "@/components/molecules/IconLink";
 import {useEffect} from "react";
@@ -67,13 +67,13 @@ export const InformationSection = () => {
                         height={150}
                         width={150}
                         alt="profilepicture"
-                        className="rounded-full overflow-hidden border border-black mb-10 opacity-0"
+                        className="rounded-full overflow-hidden mb-10 opacity-0"
                     />
 
                     <h1 id={"name"} className="opacity-0">Adrian Busse</h1>
                     <p id={"job"} className="font-bold text-lg opacity-0">Freelance Web Developer</p>
                     <ul id={"tech"} className="mb-16">
-                        {['ReactJS', 'Web-Apps', 'personel Websites', 'Web APIs']
+                        {['ReactJS', 'Web-Apps', 'Personal Websites', 'Web APIs']
                             .map((item, index) => {
                                 return (
                                     <li key={index + item} className={"scale-y-0"}>{item}</li>

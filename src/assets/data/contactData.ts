@@ -3,7 +3,7 @@ import {
   faInstagram,
   faLinkedin,
   faSquareFacebook,
-  faSquareTwitter,
+  faSquareXTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -15,7 +15,7 @@ export const contactData = [
   },
   {
     text: "Twitter",
-    icon: faSquareTwitter,
+    icon: faSquareXTwitter,
     link: "https://twitter.com/AdrianBusse2",
   },
   { text: "GitHub", icon: faGithub, link: "https://github.com/AdriBusse" },
