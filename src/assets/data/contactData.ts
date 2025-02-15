@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-export const contactData = [
+export const contactData:{ text: string, icon: any, link: string}[] = [
   {
     text: "adri.busse@gmail.com",
     icon: faEnvelope,
